@@ -1,3 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0px;
+}
 body {
-    font-family: Helvetica, Arial, sans-serif, "Times New Roman";
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
